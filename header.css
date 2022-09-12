@@ -2,25 +2,25 @@
     display: flex;
     justify-content: space-between;
     padding: 40px 20px;
-    align-items: center; /*Alinhar o logo com o menu*/
-    max-width: 1200px; /*Mantem uma largura máxima de 1200*/
-    margin: 0 auto; /*Com a largura definida, usando o 'margin: 0 auto' deixa o conteúdo alinhado ao centro*/
+    align-items: center; 
+    max-width: 1200px; 
+    margin: 0 auto;
 }
 
 .header-menu {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: center; /*Serve para alinhar o conteúno ao centro quuando a página for menor*/ 
+    justify-content: center;
 }
 
 .header-menu a {
-    font-size: 1.125rem; /* 1rem = 16 */ /*o valor em px é 18. Conta 18/16 = 1.125*/
+    font-size: 1.125rem;
     line-height: 1.3;
     padding: 10px 20px;
     text-decoration: none;
     color: #141414;
-    display: block; /*O display: block; serve para que o elemento pegue corretamento os valores do padding*/
+    display: block;
 }
 
 @media (max-width: 800px){
